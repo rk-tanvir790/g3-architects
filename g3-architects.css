@@ -7,3 +7,86 @@
   font-weight: 400;
   font-style: normal;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* sheard Styles */
+
+.display-flex{
+    display: flex;
+}
+.small-description{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #727272;
+}
+.primary-btn{
+    padding: 15px 30px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border: none;
+}
+.primary-btn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Navbar Styles */
+.navbar,.hero-section,.hero-content{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-name{
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #131313;
+}
+.nav-items ul{
+    list-style: none;
+    gap: 60px;
+}
+.nav-items a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 26px;
+    color: #424242;
+}
+.nav-items a:hover{
+    color: #FF900E;
+}
+
+/* Hero section styles */
+
+.header{
+    background-color:rgba(255, 144, 14, 0.1);
+}
+.hero-content{
+    max-width: 862px;
+    text-align: center;
+    margin-top: 50px;
+}
+.hero-content h2{
+    font-weight: 700;
+    font-size: 4rem;
+    color: #131313;
+}
+.hero-content p{
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.header img{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
