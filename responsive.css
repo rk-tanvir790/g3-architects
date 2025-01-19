@@ -1,0 +1,15 @@
+/* Responsive For Small Devices */
+
+@media screen and (max-width: 576px) {
+    .display-flex{
+        flex-direction: column;
+    }
+}
+
+/* Responsive For Medium devices */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .display-flex{
+        flex-direction: column;
+    }
+}
