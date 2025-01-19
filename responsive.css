@@ -7,6 +7,7 @@
     section{
         margin-top: 50px;
         margin-bottom: 50px;
+        padding: 15px;
     }
     .small-description{
         padding: 0 10px;
@@ -17,6 +18,13 @@
     }
     .feature-content{
         text-align: center;
+    }
+    .feature2-banner button{
+        display: block;
+        margin: 20px auto;
+    }
+    .feature2-conatiner{
+        gap: 50px;
     }
 }
 
@@ -29,6 +37,7 @@
     section{
         margin-top: 70px;
         margin-bottom: 70px;
+        padding: 20px;
     }
     .small-description{
         padding: 0 10px;
@@ -36,5 +45,12 @@
     }
     .feature-content{
         text-align: center;
+    }
+    .feature2-banner button{
+        display: block;
+        margin: 20px auto;
+    }
+    .feature2-conatiner{
+        gap: 50px;
     }
 }
