@@ -26,6 +26,10 @@
     .feature2-conatiner{
         gap: 50px;
     }
+    .fact-card-items{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
 }
 
 /* Responsive For Medium devices */
@@ -53,4 +57,7 @@
     .feature2-conatiner{
         gap: 50px;
     }
+    .fact-card-items{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
 }
